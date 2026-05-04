@@ -1,0 +1,15 @@
+{
+	"name": "Datax-Adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9cf486b2-7957-45c4-8e64-863ddd44ec69",
+		"tenantId": "66038a15-41d1-4038-995b-cd4560332688"
+	}
+}
