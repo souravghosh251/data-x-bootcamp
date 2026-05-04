@@ -1,0 +1,23 @@
+{
+	"name": "TargetVendorDataSet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "TargetAzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "landing/processed_orders",
+				"container": "dev-datax"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
